@@ -1,7 +1,9 @@
 
-# Beautiful Toast
+# Notify
 
-:boom: Effortlessly create stunning and customizable toast notifications for your applications.
+:boom: A hook-driven React notification system, packaged as an npm module with extensible theming and customizable UI
+variants, featuring a centralized toast manager that orchestrates lifecycle control, queue limits, and auto-dismiss logic with
+animated progress tracking.
 
 ![ScreenRecording2024-06-14at11 34 29PM-ezgif com-video-to-gif-converter](https://github.com/naman360/beautiful-toast/assets/40193621/6897bece-3094-43de-8ccd-0fb996f148c4)
 
@@ -14,7 +16,7 @@
 ## Installation
 
 ```
-$ npm i beautiful-toast
+$ npm i notify
 ```
 
 ## Features
@@ -29,7 +31,7 @@ $ npm i beautiful-toast
 **Step 1: Import beautiful-toast**  
 
 ```javascript
-import useToast from "beautiful-toast";
+import useToast from "notify";
 ```
 
 **Step 2: Initialize the Toast Hook**  
@@ -140,6 +142,3 @@ Use the `showToast` function to create and display different types of toasts. Be
 </button>
 ```
 
-
-## Contribute
-Show your ❤️ and support by giving a ⭐. Any suggestions are welcome in the issues section.  
